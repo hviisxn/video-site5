@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>움짤처럼 재생되는 영상</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    video {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop muted playsinline>
+    <source src="video.mp4.mp4" type="video/mp4">
+    이 브라우저는 비디오를 지원하지 않습니다.
+  </video>
+</body>
+</html>
